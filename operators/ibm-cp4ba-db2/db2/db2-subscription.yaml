@@ -6,7 +6,8 @@ metadata:
   name: db2u-operator
   namespace: db2
 spec:
-  channel: v2.2
+  # channel: v2.2
+  channel: v110508.0
   installPlanApproval: Automatic
   name: db2u-operator
   source: ibm-db2-operator-catalog

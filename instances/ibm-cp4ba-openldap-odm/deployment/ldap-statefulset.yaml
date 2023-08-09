@@ -114,7 +114,8 @@ spec:
           requests:
             storage: 8Gi
         # volumeMode: Filesystem
-        storageClassName: managed-nfs-storage #if your using roks
+        # storageClassName: managed-nfs-storage #if your using roks
+        storageClassName: ocs-storagecluster-cephfs
       status:
         phase: Pending
   serviceName: openldap-openldap-stack-ha-headless

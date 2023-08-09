@@ -41,7 +41,7 @@ spec:
     - name: meta
       type: "create"
       spec:
-        storageClassName: ibmc-file-gold-gid
+        storageClassName: ocs-storagecluster-cephfs
         accessModes:
           - ReadWriteMany
         resources:
@@ -50,7 +50,7 @@ spec:
     - name: data
       type: "create"
       spec:
-        storageClassName: ibmc-file-gold-gid
+        storageClassName: ocs-storagecluster-cephfs
         accessModes:
           - ReadWriteOnce
         resources:
