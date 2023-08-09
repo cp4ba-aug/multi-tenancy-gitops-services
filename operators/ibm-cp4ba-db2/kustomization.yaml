@@ -1,4 +1,4 @@
 resources:
 - db2/db2-catalogsource.yaml
 - db2/db2-subscription.yaml
-- db2/db2-namespace-scope.yaml
+# - db2/db2-namespace-scope.yaml
