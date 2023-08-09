@@ -20,11 +20,11 @@ metadata:
     app.kubernetes.io/managed-by: ibm-dba
     app.kubernetes.io/name: ibm-dba
     # release: 22.0.1
-    release: 23.0.1
+    release: 22.0.1
 spec:
   ## CP4A application version
   # appVersion: 22.0.1
-  appVersion: 23.0.1
+  appVersion: 22.0.1
   ## MUST exist, used to accept ibm license, valid value only can be "accept"
   ibm_license: accept
   #################################################################################################################
