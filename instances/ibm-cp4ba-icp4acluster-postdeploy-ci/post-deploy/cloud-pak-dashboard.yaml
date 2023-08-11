@@ -1,0 +1,10 @@
+apiVersion: console.openshift.io/v1
+kind: ConsoleLink
+metadata:
+  name: cloud-pak-dashboard
+spec:
+  href: https://cpd-cp4ba.apps.ocp-6630023d5n-obrm.cloud.techzone.ibm.com
+  location: ApplicationMenu
+  applicationMenu:
+    section: IBM Cloud Paks
+  text: Cloud Pak Dashboard
