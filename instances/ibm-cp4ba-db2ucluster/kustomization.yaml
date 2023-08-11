@@ -1,3 +1,4 @@
 resources:
 - db2-instance/db2u-scc.yaml
 - db2-instance/db2-instance.yaml
+- db2-instance/db2-instance-ci.yaml
