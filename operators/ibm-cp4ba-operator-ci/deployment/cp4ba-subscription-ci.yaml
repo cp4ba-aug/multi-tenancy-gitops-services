@@ -3,7 +3,7 @@ kind: Subscription
 metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "240"
-  name: ibm-cp4ba-operator-subscription
+  name: ibm-cp4ba-operator-subscription-ci
   namespace: ci
 spec:
   # channel: v22.1

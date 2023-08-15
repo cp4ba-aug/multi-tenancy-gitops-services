@@ -196,7 +196,7 @@ spec:
       ## Provide the name of the database for ODM.  For example: "ODMDB"
       dc_common_database_name: "ODMDB"
       ## The name of the secret that contains the credentials to connect to the database.
-      dc_common_database_instance_secret: "odm-db-credentials"
+      dc_common_database_instance_secret: "odm-db-credentials-ci"
       ## Set to true when the database is using SSL
       dc_common_ssl_enabled: false
       ## If SSL is used to secure the database connection, specify the name of the SSL secret.
