@@ -2,4 +2,5 @@ resources:
 - db2/db2-catalogsource.yaml
 - db2/db2-subscription.yaml
 # - db2/db2-subscription-ci.yaml
+# - db2/db2-catalogsource-ci.yaml
 # - db2/db2-namespace-scope.yaml
