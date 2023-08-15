@@ -20,11 +20,11 @@ metadata:
     app.kubernetes.io/managed-by: ibm-dba
     app.kubernetes.io/name: ibm-dba
     # release: 22.0.1
-    release: 23.0.1
+    release: 22.0.1
 spec:
   ## CP4A application version
   # appVersion: 22.0.1
-  appVersion: 23.0.1
+  appVersion: 22.0.1
   ## MUST exist, used to accept ibm license, valid value only can be "accept"
   ibm_license: accept
   #################################################################################################################
@@ -73,7 +73,8 @@ spec:
     ## If decisionCenter is set, you also have to set the 'odm_configuration.decisionCenter.enabled' flag to true to install it.
     ## If decisionRunner is set, you also have to set the 'odm_configuration.decisionRunner.enabled' flag to true to install it.
     ## If decisionServerRuntime is set, you also have to set the 'odm_configuration.decisionRuntime.enabled' flag to true to install it.
-    sc_optional_components: "decisionCenter,decisionRunner,decisionServerRuntime"
+    ## sc_optional_components: "decisionCenter,decisionRunner,decisionServerRuntime"
+    sc_optional_components: "decisionCenter"
     ## The deployment type as selected by the user.  Possible values are: Starter and Production.
     sc_deployment_type: "Production"
     ## The platform to be deployed specified by the user.  Possible values are: OCP and other.  This is normally populated by the User script
@@ -210,9 +211,9 @@ spec:
     #   enabled: true 
     decisionCenter:
       enabled: true
-    decisionServerRuntime:
-      enabled: false
-    decisionRunner:
-      enabled: false
+    # decisionServerRuntime:
+    #   enabled: false
+    # decisionRunner:
+    #   enabled: false
     livenessProbe:
       initialDelaySeconds: 500
