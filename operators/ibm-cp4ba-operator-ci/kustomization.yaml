@@ -1,5 +1,5 @@
 resources:
-- deployment/cp4ba-catalogsource-ci.yaml
+# - deployment/cp4ba-catalogsource-ci.yaml
 - deployment/cp4ba-subscription-ci.yaml
 
 ### BAW DEPLOYMENT ###
