@@ -8,7 +8,7 @@ metadata:
 spec:
   # channel: v22.1
   channel: v22.1
-  name: ibm-cp4a-operator-ci
+  name: ibm-cp4a-operator
   installPlanApproval: Automatic
   source: ibm-cp4a-operator-catalog
   sourceNamespace: openshift-marketplace
