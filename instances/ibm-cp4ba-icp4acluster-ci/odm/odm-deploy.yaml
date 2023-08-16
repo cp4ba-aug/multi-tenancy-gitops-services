@@ -116,7 +116,7 @@ spec:
     ## The port of the LDAP server to connect.  Some possible values are: 389, 636, etc.
     lc_ldap_port: "389"
     ## The LDAP bind secret for LDAP authentication.  The secret is expected to have ldapUsername and ldapPassword keys.  Refer to Knowledge Center for more info.
-    lc_bind_secret: ldap-bind-secret
+    lc_bind_secret: ldap-bind-secret-ci
     ## The LDAP base DN.  For example, "dc=example,dc=com", "dc=abc,dc=com", etc
     lc_ldap_base_dn: "dc=cp"
     ## Enable SSL/TLS for LDAP communication. Refer to Knowledge Center for more info.
@@ -197,7 +197,7 @@ spec:
       ## Provide the name of the database for ODM.  For example: "ODMDB"
       dc_common_database_name: "ODMDB"
       ## The name of the secret that contains the credentials to connect to the database.
-      dc_common_database_instance_secret: "odm-db-credentials"
+      dc_common_database_instance_secret: "odm-db-credentials-ci"
       ## Set to true when the database is using SSL
       dc_common_ssl_enabled: false
       ## If SSL is used to secure the database connection, specify the name of the SSL secret.
