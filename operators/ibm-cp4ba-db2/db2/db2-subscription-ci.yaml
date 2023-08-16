@@ -4,7 +4,7 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "220"
   name: db2u-operator-ci
-  namespace: ci
+  namespace: db2
 spec:
   # channel: v2.2
   channel: v110508.0
