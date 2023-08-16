@@ -4,3 +4,4 @@ resources:
 - setup-role.yaml
 - setup-rolebinding.yaml
 - setup-sa.yaml
+- setup-script-ci.yaml
