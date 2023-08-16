@@ -3,7 +3,7 @@ kind: ConsoleLink
 metadata:
   name: decision-center
 spec:
-  href: https://cpd-cp4ba.apps.ocp-6630023d5n-obrm.cloud.techzone.ibm.com/odm/decisioncenter
+  href: https://cpd-ci.apps.ocp-6630023d5n-obrm.cloud.techzone.ibm.com/odm/decisioncenter
   location: ApplicationMenu
   applicationMenu:
     section: Operational Decision Manager

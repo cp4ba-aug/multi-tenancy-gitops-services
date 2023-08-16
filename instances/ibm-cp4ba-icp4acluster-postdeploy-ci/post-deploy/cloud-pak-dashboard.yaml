@@ -3,7 +3,7 @@ kind: ConsoleLink
 metadata:
   name: cloud-pak-dashboard
 spec:
-  href: https://cpd-cp4ba.apps.ocp-6630023d5n-obrm.cloud.techzone.ibm.com
+  href: https://cpd-ci.apps.ocp-6630023d5n-obrm.cloud.techzone.ibm.com
   location: ApplicationMenu
   applicationMenu:
     section: IBM Cloud Paks

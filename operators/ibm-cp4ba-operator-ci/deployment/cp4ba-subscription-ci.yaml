@@ -10,5 +10,5 @@ spec:
   channel: v22.1
   name: ibm-cp4a-operator-ci
   installPlanApproval: Automatic
-  source: ibm-cp4a-operator-catalog
+  source: ibm-cp4a-operator-catalog-ci
   sourceNamespace: openshift-marketplace

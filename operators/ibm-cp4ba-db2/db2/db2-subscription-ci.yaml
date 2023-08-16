@@ -3,12 +3,12 @@ kind: Subscription
 metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "220"
-  name: db2u-operator
+  name: db2u-operator-ci
   namespace: ci
 spec:
   # channel: v2.2
   channel: v110508.0
   installPlanApproval: Automatic
-  name: db2u-operator
-  source: ibm-db2-operator-catalog
+  name: db2u-operator-ci
+  source: ibm-db2-operator-catalog-ci
   sourceNamespace: openshift-marketplace

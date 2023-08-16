@@ -3,7 +3,7 @@ kind: CatalogSource
 metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "205"
-  name: ibm-db2-operator-catalog
+  name: ibm-db2-operator-catalog-ci
   namespace: openshift-marketplace
 spec:
   displayName: "IBM Operator Catalog" 

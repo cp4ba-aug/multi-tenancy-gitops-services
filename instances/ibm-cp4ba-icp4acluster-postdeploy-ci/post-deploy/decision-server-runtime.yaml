@@ -3,7 +3,7 @@ kind: ConsoleLink
 metadata:
   name: decision-server-runtime
 spec:
-  href: https://cpd-cp4ba.apps.ocp-6630023d5n-obrm.cloud.techzone.ibm.com/odm/DecisionService
+  href: https://cpd-ci.apps.ocp-6630023d5n-obrm.cloud.techzone.ibm.com/odm/DecisionService
   location: ApplicationMenu
   applicationMenu:
     section: Operational Decision Manager
