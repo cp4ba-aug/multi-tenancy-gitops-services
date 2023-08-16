@@ -13,7 +13,7 @@
 apiVersion: operators.coreos.com/v1alpha1
 kind: CatalogSource
 metadata:
-  name: ibm-cp4a-operator-catalog
+  name: ibm-cp4a-operator-catalog-ci
   namespace: openshift-marketplace
   annotations:
     argocd.argoproj.io/sync-wave: "210"
@@ -30,7 +30,7 @@ spec:
 apiVersion: operators.coreos.com/v1alpha1
 kind: CatalogSource
 metadata:
-  name: ibm-cp-automation-foundation-catalog
+  name: ibm-cp-automation-foundation-catalog-ci
   namespace: openshift-marketplace
   annotations:
     argocd.argoproj.io/sync-wave: "210"
@@ -47,7 +47,7 @@ spec:
 apiVersion: operators.coreos.com/v1alpha1
 kind: CatalogSource
 metadata:
-  name: ibm-automation-foundation-core-catalog
+  name: ibm-automation-foundation-core-catalog-ci
   namespace: openshift-marketplace
   annotations:
     argocd.argoproj.io/sync-wave: "210"
@@ -64,7 +64,7 @@ spec:
  apiVersion: operators.coreos.com/v1alpha1
  kind: CatalogSource
  metadata:
-  name: opencloud-operators
+  name: opencloud-operators-ci
   namespace: openshift-marketplace
   annotations:
     bedrock_catalogsource_priority: '1'
@@ -82,7 +82,7 @@ spec:
  apiVersion: operators.coreos.com/v1alpha1
  kind: CatalogSource
  metadata:
-  name: bts-operator
+  name: bts-operator-ci
   namespace: openshift-marketplace
   annotations:
     bedrock_catalogsource_priority: '1'
@@ -100,7 +100,7 @@ spec:
  apiVersion: operators.coreos.com/v1alpha1
  kind: CatalogSource
  metadata:
-  name: cloud-native-postgresql-catalog
+  name: cloud-native-postgresql-catalog-ci
   namespace: openshift-marketplace
   annotations:
     bedrock_catalogsource_priority: '1'
