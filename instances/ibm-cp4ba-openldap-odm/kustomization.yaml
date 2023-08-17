@@ -3,6 +3,7 @@ resources:
 - secrets/openldap-stack-ha-secret.yaml
 - secrets/sh.helm.secret.yaml
 - secrets/ldap-bind-secret-ci.yaml
+- secrets/ldap-bind-secret.yaml
 
 
 - configmaps/cm-customdif-stack-ha.yaml
