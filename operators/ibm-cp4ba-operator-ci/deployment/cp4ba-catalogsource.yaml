@@ -18,7 +18,7 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "210"
 spec:
-  displayName: ibm-cp4a-operator
+  displayName: ibm-cp4a-operator-ci
   publisher: IBM
   sourceType: grpc
   image: icr.io/cpopen/ibm-cp-automation-catalog@sha256:f0b137d20ed52cc5bec8dd7ca03fe57e824cf30418803d421c6b50f4d7f5297e
