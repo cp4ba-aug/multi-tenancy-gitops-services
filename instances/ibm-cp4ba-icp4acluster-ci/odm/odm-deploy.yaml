@@ -74,7 +74,7 @@ spec:
     ## If decisionRunner is set, you also have to set the 'odm_configuration.decisionRunner.enabled' flag to true to install it.
     ## If decisionServerRuntime is set, you also have to set the 'odm_configuration.decisionRuntime.enabled' flag to true to install it.
     ## sc_optional_components: "decisionCenter,decisionRunner,decisionServerRuntime"
-    sc_optional_components: "decisionCenter"
+    sc_optional_components: "decisionCenter,decisionRunner,decisionServerRuntime"
     ## The deployment type as selected by the user.  Possible values are: Starter and Production.
     sc_deployment_type: "Production"
     ## The platform to be deployed specified by the user.  Possible values are: OCP and other.  This is normally populated by the User script
@@ -211,9 +211,9 @@ spec:
     #   enabled: true 
     decisionCenter:
       enabled: true
-    # decisionServerRuntime:
-    #   enabled: false
-    # decisionRunner:
-    #   enabled: false
+    decisionServerRuntime:
+      enabled: false
+    decisionRunner:
+      enabled: false
     livenessProbe:
       initialDelaySeconds: 500
