@@ -61,22 +61,22 @@ spec:
       interval: 45m
 ---
 # IBM Cloud Foundational Services 3.19.0
- apiVersion: operators.coreos.com/v1alpha1
- kind: CatalogSource
- metadata:
-  name: opencloud-operators
-  namespace: openshift-marketplace
-  annotations:
-    bedrock_catalogsource_priority: '1'
-    argocd.argoproj.io/sync-wave: "210"
- spec:
-  displayName: IBMCS Operators
-  publisher: IBM
-  sourceType: grpc
-  image: icr.io/cpopen/ibm-common-service-catalog@sha256:87904dee339ee4bbcbdc07949abc8df82bf6d85706f90795e6dae5e45f876b19
-  updateStrategy:
-    registryPoll:
-      interval: 45m
+#  apiVersion: operators.coreos.com/v1alpha1
+#  kind: CatalogSource
+#  metadata:
+#   name: opencloud-operators
+#   namespace: openshift-marketplace
+#   annotations:
+#     bedrock_catalogsource_priority: '1'
+#     argocd.argoproj.io/sync-wave: "210"
+#  spec:
+#   displayName: IBMCS Operators
+#   publisher: IBM
+#   sourceType: grpc
+#   image: icr.io/cpopen/ibm-common-service-catalog@sha256:87904dee339ee4bbcbdc07949abc8df82bf6d85706f90795e6dae5e45f876b19
+#   updateStrategy:
+#     registryPoll:
+#       interval: 45m
 ---
 # IBM Business Teams Service version 3.19.0
  apiVersion: operators.coreos.com/v1alpha1
