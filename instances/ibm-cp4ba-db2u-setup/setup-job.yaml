@@ -23,6 +23,6 @@ spec:
       - name: setupjob
         configMap:
           name: odm-db2u-setup
-      - name: setupjob-ci
-        configMap:
-          name: odm-db2u-setup-ci
+      # - name: setupjob-ci
+      #   configMap:
+      #     name: odm-db2u-setup-ci

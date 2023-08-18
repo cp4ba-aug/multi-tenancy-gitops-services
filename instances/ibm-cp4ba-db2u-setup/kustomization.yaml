@@ -1,7 +1,7 @@
 resources:
 - setup-script.yaml
 - setup-job.yaml
-- setup-script-ci.yaml
+# - setup-script-ci.yaml
 # - setup-job-ci.yaml
 - setup-role.yaml
 - setup-rolebinding.yaml
