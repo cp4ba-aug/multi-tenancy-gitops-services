@@ -11,7 +11,6 @@ data:
     dn: ou=Users,dc=cp
     objectClass: organizationalUnit
     ou: Users
-
     dn: ou=Groups,dc=cp
     objectClass: organizationalUnit
     ou: Groups
